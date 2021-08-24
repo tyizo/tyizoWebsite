@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Tyizo | Home</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <%- include('./partials/header'); -%>
+    <!-- Home Body -->
+    <div class="container">
+      <h2>Hello There, I'm Tyizo!</h2>
+      <img src="assets/tyizo.jpg" alt="Tyizo's Logo" class="heroImage" />
+      <h4>
+        Full Stack devloper from
+        <img src="assets/iraq.png" alt="Iraq Flag" class="iraqFlag" />
+      </h4>
+      <div>
+        I love to try new things & exploring other technollogies, I always want
+        to improve myself and learning more.
+      </div>
+      <br />
+      <span><a href="/skills"></a></span>
+      <br />
+      <div class="fact">
+        fact: Coffee is the love of my life
+        <img
+          src="assets/pleading_face_emoji.png"
+          alt="Pleading Face Emoji"
+          class="emoji"
+        />.
+      </div>
+    </div>
+    <!-- Footer -->
+    <%- include('./partials/footer'); -%>
+
+    <!-- Scripts -->
+    <script src="js/darkTheme.js"></script>
+  </body>
+</html>

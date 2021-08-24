@@ -1,0 +1,17 @@
+.aboutContainer {
+  padding: 30px;
+}
+.aboutContainer .about {
+  letter-spacing: 1px;
+  font-size: 25px;
+  width: 600px;
+}
+.aboutContainer .flag {
+  position: absolute;
+  left: 145vh;
+  bottom: 25vw;
+  height: 30vh;
+  border-radius: 13px;
+}
+
+/*# sourceMappingURL=about.css.map */

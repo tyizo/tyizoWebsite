@@ -1,0 +1,94 @@
+[data-theme=dark] {
+  --primary-color: #9a97f3;
+  --secondary-color: #818cab;
+  --font-color: #e1e1ff;
+  --bg-color: #161625;
+  --heading-color: #818cab;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--font-color);
+  transition: all 0.5s;
+}
+
+h1 {
+  color: var(--secondary-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--font-color);
+}
+
+.container {
+  padding: 90px;
+}
+.container .iraqFlag {
+  height: 40px;
+  margin-bottom: -5px;
+}
+.container h4 {
+  font-size: 40px;
+  padding-bottom: 30px;
+  margin-top: -25px;
+}
+.container div {
+  font-size: 20px;
+  width: 500px;
+  margin-top: -34px;
+}
+.container span {
+  position: relative;
+  display: inline-flex;
+  width: 180px;
+  height: 55px;
+  padding-bottom: 60px;
+  perspective: 1000px;
+}
+.container span a {
+  font-size: 19px;
+  letter-spacing: 1px;
+  transform-style: preserve-3d;
+  transform: translateZ(-25px);
+  transition: transform 0.25s;
+}
+.container span a:before,
+.container span a:after {
+  position: absolute;
+  content: "My Skills";
+  height: 55px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid black;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.container span a:before {
+  color: #fff;
+  background: #000;
+  transform: rotateY(0deg) translateZ(25px);
+}
+.container span a:after {
+  color: var(--font-color);
+  transform: rotateX(90deg) translateZ(25px);
+}
+.container span a:hover {
+  transform: translateZ(-25px) rotateX(-90deg);
+}
+.container .heroImage {
+  position: absolute;
+  left: 150vh;
+  bottom: 11vw;
+  height: 50vh;
+  border-radius: 13px;
+}
+
+.fact .emoji {
+  height: 26px;
+  margin-bottom: -3px;
+}
+
+/*# sourceMappingURL=home.css.map */

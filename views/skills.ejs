@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Tyizo | Skills</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <%- include('./partials/header'); -%>
+    <!-- Home Body -->
+    <div class="skill">
+      <button onclick="topFunction()" id="myBtn" title="Go to top">
+        Back to top
+      </button>
+      <h5>My Skills</h5>
+      <!-- Languages -->
+      <div class="languages">
+        <p>Languages:</p>
+        <p><i class="fab fa-html5"></i> HTML</p>
+        <div class="language">
+          <div class="skills html">70%</div>
+        </div>
+        <p><i class="fab fa-css3"></i> CSS</p>
+        <div class="language">
+          <div class="skills css">70%</div>
+        </div>
+        <p><i class="fab fa-js"></i> JavaScript ( & Nodejs )</p>
+        <div class="language">
+          <div class="skills js">85%</div>
+        </div>
+        <p><i class="fab fa-python"></i> Python</p>
+        <div class="language">
+          <div class="skills python">45%</div>
+        </div>
+        <p><i class="fab fa-ts"></i> TypeScript</p>
+        <div class="language">
+          <div class="skills typescript">75%</div>
+        </div>
+        <p><i class="fab fa-cpp"></i> C++</p>
+        <div class="language">
+          <div class="skills cpp">15%</div>
+        </div>
+        <p><i class="fab fa-php"></i> PHP</p>
+        <div class="language">
+          <div class="skills php">50%</div>
+        </div>
+        <br />
+        <!-- FrameWroks -->
+        <div class="frameworks">
+          <p>Frameworks:</p>
+          <p><i class="fab fa-react"></i> ReactJS</p>
+          <div class="framework">
+            <div class="skills react">20%</div>
+          </div>
+          <p><i class="fab fa-vuejs"></i> VueJS</p>
+          <div class="framework">
+            <div class="skills vue">24%</div>
+          </div>
+        </div>
+        <br />
+      </div>
+    </div>
+    <!-- Footer -->
+    <%- include('./partials/footer'); -%>
+
+    <!-- Scripts -->
+    <script src="js/darkTheme.js"></script>
+    <script src="js/scrollToTop.js"></script>
+  </body>
+</html>

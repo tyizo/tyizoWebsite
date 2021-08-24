@@ -1,0 +1,26 @@
+{
+  "name": "tyizowebsite",
+  "version": "1.0.0",
+  "description": "source code for my own website.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass:compile": "node-sass --include-path sass scss/main.scss public/css/main.css",
+    "devStart": "nodemon main.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "javascript",
+    "js"
+  ],
+  "author": "Tyizo <tyizo@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}

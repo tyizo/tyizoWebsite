@@ -1,0 +1,21 @@
+.social {
+  font-size: 25px;
+}
+.social .fa-instagram {
+  color: #b62c65;
+  padding: 10px;
+}
+.social .fa-twitter {
+  color: #1aa0c9;
+  padding: 10px;
+}
+.social .fa-github {
+  color: #2b2828;
+  padding: 10px;
+}
+
+.credits {
+  text-align: center;
+}
+
+/*# sourceMappingURL=footer.css.map */
